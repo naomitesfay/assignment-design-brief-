@@ -1,5 +1,166 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: Lucida Grande;
+  padding: 0px;
+}
+h1 {
+  font-family: Lora;
+  font-size: 42px;
+  font-weight: 300;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+h2 {
+  font-family: Lucida Grande;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+h3 {
+  font-family: Lucida Grande;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+h4 {
+  color: silver;
+  font-family: Lucida Grande;
+  font-size: 10px;
+  font-weight: 100;
+  line-height: 9px;
+  margin-left: 6px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+p {
+  font-family: Lucida Grande;
+  font-size: 12px;
+  line-height: 12px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  float: left;
+  font-size: 12px;
+  padding-right: 20px;
+}
+.header {
+  border-bottom: 1px solid silver;
+  display: flex;
+  height: 75px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 180px;
+  padding-right: 220px;
+}
+.button {
+  border-radius: 4px;
+  height: 32px;
+  width: 85px;
+  text-align: center;
+}
+.headerButton {
+  background-color: green;
+  color: white;
+}
+
+.headerButton:hover {
+  background-color: #E1E0E7;
+}
+
+.top {
+  border-bottom: 1px solid silver;
+  display: flex;
+  margin-left: 220px;
+  margin-right: 220px;
+}
+.top h2 {
+  font-weight: 300;
+}
+.topButtons {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.topButton1 {
+  background-color: black;
+  color: silver;
+  margin-right: 10px;
+}
+
+.topButton1:hover {
+  background-color: #E1E0E7;
+}
+
+
+.topButton2 {
+  background-color: white;
+  color: black;
+}
+
+.topButton2:hover {
+  background-color: #E1E0E7;
+}
+
+
+.mainImage {
+  height: 300px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  height: auto;
+  justify-content: space-between;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 20px;
+  width: calc(100% - 440px);
+}
+.flexContainer {
+  border: 1px solid silver;
+  display: flex;
+  height: 255px;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  width: 49%;
+}
+.containerImage {
+  height: 255px;
+  object-fit: cover;
+  width: 200px;
+}
+.containerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  width: calc(100% - 200px);
+}
+.containerbelow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.infobox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.portrait {
+  border-radius: 26px;
+  height: 46px;
+  width: 46px;
+}
+.bookmark {
+margin-top: 14px;
 }
